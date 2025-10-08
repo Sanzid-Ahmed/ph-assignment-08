@@ -1,5 +1,7 @@
 import React from 'react';
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/logo.png";
+import { FaGithub } from "react-icons/fa";
+
 
 const Navbar = () => {
     return (
@@ -26,7 +28,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Contribute</a>
+                    <a className="btn bg-linear-150 from-[#632EE3] to-[#9F62F2]">{<FaGithub />} Contribute</a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://miro.medium.com/v2/resize:fit:1400/0*7koOzWGkuNS2YNZM",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs and podcasts from artists around the world.",
+    "size": 45,
+    "reviews": 32000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ZNJsmHvzlIkwmdPvELXPbVI9uOEW8tJeNw&s",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Share your moments with photos and videos, and connect with friends.",
+    "size": 60,
+    "reviews": 140000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 70000000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5W_kOovTvB13dVup45ON9zv3t-yoR4iz8gkgizzkc3Mq5TvU5gn5O3asW7l2eaPL7dA&usqp=CAU",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Watch, upload, and share videos with the world.",
+    "size": 80,
+    "reviews": 160000000,
+    "ratingAvg": 5.0,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 108000000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1660136007317-b0d7dd3cee08?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGlrdG9rJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 4,
+    "description": "Discover and create short videos with fun effects and music.",
+    "size": 70,
+    "reviews": 95000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 52000000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 5,
+    "description": "Watch your favorite TV shows, movies, and documentaries anytime.",
+    "size": 55,
+    "reviews": 13000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1600000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 6800000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/4wP5x1pXy6RlpUtvW9d1Dlw8VG8e7eD2Kx8Q9czt9-hX3RnlY5L_4k3EBvEzk9aEIg=w480-h960",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 6,
+    "description": "Send quick snaps and chat with your friends instantly.",
+    "size": 48,
+    "reviews": 28000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1800000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/7hM2mY3uH3HcH2yU7EZ3rA7nK-0qZbO0tvGozqFTI1e3qE3mZbJ3jBgwC9iMyIl3rA=w480-h960",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 7,
+    "description": "Build your professional profile and connect with industry experts.",
+    "size": 42,
+    "reviews": 9000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 4400000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/o7y_x4spVxwUNQp7mceExkqJkOXA4a_7sWBtQGh5zv6aO5cDUvV8YBfQxgdu6AgJ=w480-h960",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "Fast, secure messaging app with privacy-focused features.",
+    "size": 35,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  }
+]
