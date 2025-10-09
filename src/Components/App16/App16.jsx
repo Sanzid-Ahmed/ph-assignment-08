@@ -2,6 +2,7 @@ import React from 'react';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import { NavLink } from 'react-router';
 
 const App16 = ({ app }) => {
 
@@ -9,26 +10,27 @@ const App16 = ({ app }) => {
     console.log(app);
 
     function formatNumber(num) {
-            if (num >= 1000000000) return (num / 1000000000).toFixed(1) + "B";
-            else if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
-            else if (num >= 1000) return (num / 1000).toFixed(1) + "K";
-            return num.toString();
-        }
-    
-    
-        function countStar(starnum){
-            if(starnum !== 5.0) return <FaStarHalfAlt className='text-[#FF8811]' />;
-            else return <FaStar className='text-[#FF8811]' />;
-        }
-    
-        let num = parseFloat(app.downloads);
-        const formattedDownloads = formatNumber(num);
-    
-    
-        let star = countStar(app.ratingAvg);
-    
-        return (
-            <div className='p-4 rounded-md'>
+        if (num >= 1000000000) return (num / 1000000000).toFixed(1) + "B";
+        else if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
+        else if (num >= 1000) return (num / 1000).toFixed(1) + "K";
+        return num.toString();
+    }
+
+
+    function countStar(starnum) {
+        if (starnum !== 5.0) return <FaStarHalfAlt className='text-[#FF8811]' />;
+        else return <FaStar className='text-[#FF8811]' />;
+    }
+
+    let num = parseFloat(app.downloads);
+    const formattedDownloads = formatNumber(num);
+
+
+    let star = countStar(app.ratingAvg);
+
+    return (
+        <NavLink to={`/appDeatils/${app.id}`}>
+            <div className='p-4 rounded-md cursor-pointer'>
                 <img className='h-[250px] w-full rounded-sm' src={app.image} alt="" />
                 <p className='mt-2'>{app.title}</p>
                 <div className='flex justify-between mt-3'>
@@ -48,7 +50,8 @@ const App16 = ({ app }) => {
                     </div>
                 </div>
             </div>
-        );
-    };
+        </NavLink>
+    );
+};
 
 export default App16;
