@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { getStoreApp, removeFromStoredDB } from '../../utility/addToDB';
 import { useLoaderData } from 'react-router';
 import InstallAppStyle from './InstallAppStyle/InstallAppStyle';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ReadList = () => {
 
@@ -27,14 +29,17 @@ const ReadList = () => {
 
 
     const handleSort = (type) => {
-    let sortedApps = [...installApp];
-    if (type === "downloadsHL") {
-      sortedApps.sort((a, b) => b.downloads - a.downloads);
-    } else if (type === "downloadsLH") {
-      sortedApps.sort((a, b) => a.downloads - b.downloads);
-    }
-    setInstallApp(sortedApps);
-  };
+        let sortedApps = [...installApp];
+        if (type === "downloadsHL") {
+            sortedApps.sort((a, b) => b.downloads - a.downloads);
+        } else if (type === "downloadsLH") {
+            sortedApps.sort((a, b) => a.downloads - b.downloads);
+        }
+        setInstallApp(sortedApps);
+    };
+
+
+    const notify = () => toast("Uninstalled!");
 
     return (
         <div className='min-h-[75vh]'>
@@ -54,7 +59,21 @@ const ReadList = () => {
                     </div>
                     <div>
                         {
-                            installApp.map(app => <InstallAppStyle app={app} handleUninstall={handleUninstall}></InstallAppStyle>)
+                            installApp.map(app => <InstallAppStyle app={app} handleUninstall={handleUninstall} notify = {notify}></InstallAppStyle>)
+                        }
+                        {
+                            <ToastContainer
+                                position="top-right"
+                                autoClose={3000}
+                                hideProgressBar={false}
+                                newestOnTop={false}
+                                closeOnClick
+                                rtl={false}
+                                pauseOnFocusLoss
+                                draggable
+                                pauseOnHover
+                                theme="light"
+                            />
                         }
                     </div>
                 </div>

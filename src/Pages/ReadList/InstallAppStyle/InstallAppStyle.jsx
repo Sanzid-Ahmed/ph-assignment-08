@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 import { MdOutlineFileDownload } from 'react-icons/md';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 
 
-const InstallAppStyle = ({ app, handleUninstall }) => {
+const InstallAppStyle = ({ app, handleUninstall, notify }) => {
 
 
     function formatNumber(num) {
@@ -25,6 +27,9 @@ const InstallAppStyle = ({ app, handleUninstall }) => {
     }
 
     let star = countStar(app.ratingAvg);
+
+
+    // const notify = () => toast("Installed!");
 
     return (
         <div>
@@ -48,11 +53,14 @@ const InstallAppStyle = ({ app, handleUninstall }) => {
                         </div>
                     </div>
                 </div>
-                <button onClick={() => {
-                    handleUninstall(app.id);
-                }
-                } className='btn p-3 bg-[#00D390]'>Uninstall</button>
-                
+                <div>
+                    <button onClick={() => {
+                        handleUninstall(app.id);
+                        notify();
+                    }
+                    } className='btn p-3 bg-[#00D390]'>Uninstall</button>
+                </div>
+
             </div>
         </div>
     );
