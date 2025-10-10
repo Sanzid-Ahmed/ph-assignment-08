@@ -5,6 +5,7 @@ const Allapps = () => {
 
     const [data, setData] = useState([]);;
     const [search, setSearch] = useState("");
+    const [loading, setLoading] = useState(false);
 
     const updateSearch = (e) => {
         setSearch(e.target.value);
@@ -13,6 +14,17 @@ const Allapps = () => {
     useEffect(() => {
         fetch("json16Data.json").then(res => res.json()).then(setData);
     }, []);
+
+    useEffect(() => {
+        if (search === "") return;
+
+        setLoading(true);
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 300);
+
+        return () => clearTimeout(timer);
+    }, [search]);
 
 
     const filteredData = data.filter((f) => {
@@ -46,16 +58,19 @@ const Allapps = () => {
                             </label>
                         </div>
                     </div>
-                    <div className='grid grid-cols-4 gap-3'>
-                        {
-                            filteredData.length > 0 ? (
-                                filteredData.map((app) => <App16 key={app.id} app={app} />)
-                            ) : (
-                                <h1 className='col-span-4 text-center text-gray-500 font-bold text-5xl'>
-                                    No apps found
-                                </h1> 
-                            )
-                        }
+                    <div className='grid lg:grid-cols-4 gap-3'>
+                        {loading ? (
+                            <div className='col-span-4 text-center py-10 text-xl font-semibold'>
+                                Searching...
+                                <span className="loading loading-spinner loading-xl"></span>
+                            </div>
+                        ) : filteredData.length > 0 ? (
+                            filteredData.map(app => <App16 key={app.id} app={app} />)
+                        ) : (
+                            <h1 className='col-span-4 text-center text-gray-500 font-bold text-5xl'>
+                                No apps found
+                            </h1>
+                        )}
                     </div>
                 </div>
             </div>

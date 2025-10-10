@@ -19,7 +19,7 @@ const Home = () => {
             <div className='p-20'>
                 <h1 className='mb-4 text-center font-bold text-5xl'>Trending Apps</h1>
                 <p className='mb-10 text-center'>Explore All Trending Apps on the Market developed by us</p>
-                <div className='grid grid-cols-4 gap-3'>
+                <div className='grid lg:grid-cols-4 gap-3'>
                     {
                         data.map(app => <App8 app={app} ></App8>)
                     }

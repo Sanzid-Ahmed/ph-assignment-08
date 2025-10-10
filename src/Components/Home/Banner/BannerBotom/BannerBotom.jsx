@@ -4,7 +4,7 @@ const BannerBotom = () => {
     return (
         <div className='p-20 bg-linear-65 from-[#632EE3] to-[#9F62F2]'>
             <h1 className='font-bold text-3xl mb-10 text-center'>Trusted by Millions, Built for You</h1>
-            <div className='flex justify-between'>
+            <div className='flex lg:flex-row flex-col justify-between'>
                 <div className='py-4 text-center'>
                     <p>Total Downloads</p>
                     <h1 className='font-bold text-5xl'>29.6M</h1>

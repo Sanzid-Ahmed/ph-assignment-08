@@ -19,7 +19,7 @@ const Chart = ({ singleApp }) => {
         <BarChart
           data={reversedRatings}
           layout="vertical"
-          margin={{ top: 20, right: 30, left: 80, bottom: 20 }}
+          margin={{ top: 20, right: 30, left: 0, bottom: 20 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis type="number" />

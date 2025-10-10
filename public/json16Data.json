@@ -5,8 +5,8 @@
     "companyName": "Spotify AB",
     "id": 1,
     "description": "Stream millions of songs and podcasts from artists around the world, instantly accessible on any device. Spotify offers a vast library of audio content, personalized playlists, and curated stations to discover new favorites and enjoy classic hits. Users can create, share, and follow playlists, download music for offline listening, and delve into exclusive podcasts, making it the ultimate destination for audio entertainment.",
-    "size": 45,
-    "reviews": 32000000,
+    "size": "45 MB",
+    "reviews": "32 M",
     "ratingAvg": 4.4,
     "downloads": 10000000,
     "ratings": [
@@ -23,8 +23,8 @@
     "companyName": "Meta Platforms, Inc.",
     "id": 2,
     "description": "Share your moments with captivating photos and videos, and connect with friends, family, and influencers globally. Instagram is a dynamic visual platform where you can post to your feed, create temporary Stories, and share longer-form content through Reels. Explore personalized content based on your interests, message friends privately, and shop directly from your favorite brands, making it an essential hub for visual storytelling and social interaction.",
-    "size": 60,
-    "reviews": 140000000,
+    "size": "60 MB",
+    "reviews": "14 M",
     "ratingAvg": 4.2,
     "downloads": 5000000000,
     "ratings": [
@@ -41,8 +41,8 @@
     "companyName": "Google LLC",
     "id": 3,
     "description": "Watch, upload, and share an endless variety of videos with the world, ranging from educational tutorials and breaking news to music videos and viral entertainment. YouTube is the premier global video platform, allowing creators to monetize their content and build communities. Subscribers can enjoy ad-free viewing with YouTube Premium, download videos for offline play, and engage with live streams and comments, establishing it as the world's most comprehensive video library.",
-    "size": 80,
-    "reviews": 160000000,
+    "size": "80 MB",
+    "reviews": "16 M",
     "ratingAvg": 5.0,
     "downloads": 10000000000,
     "ratings": [
@@ -59,8 +59,8 @@
     "companyName": "TikTok Pte. Ltd.",
     "id": 4,
     "description": "Discover and create short, engaging videos with fun effects, popular music, and creative editing tools. TikTok’s powerful 'For You' algorithm personalizes content, making discovery addictive and effortless. Users can participate in trending challenges, follow creators from around the globe, and share their own unique perspectives in bite-sized clips. It has revolutionized mobile video, fostering a massive community dedicated to creativity and rapid-fire entertainment.",
-    "size": 70,
-    "reviews": 95000000,
+    "size": "70 MB",
+    "reviews": "95 M",
     "ratingAvg": 4.3,
     "downloads": 5000000000,
     "ratings": [
@@ -77,8 +77,8 @@
     "companyName": "Netflix, Inc.",
     "id": 5,
     "description": "Watch your favorite TV shows, blockbuster movies, and compelling documentaries anytime, anywhere, with an ever-expanding library of licensed and original content. Netflix provides a personalized streaming experience with recommendations based on viewing history. Users can download titles to watch offline, create multiple profiles for family members, and enjoy high-definition content, establishing itself as the global leader in subscription-based on-demand entertainment.",
-    "size": 55,
-    "reviews": 13000000,
+    "size": "55 MB",
+    "reviews": "13 M",
     "ratingAvg": 4.4,
     "downloads": 1000000000,
     "ratings": [
@@ -95,8 +95,8 @@
     "companyName": "Snap Inc.",
     "id": 6,
     "description": "Send quick snaps and chat with your friends instantly through photos and short videos that disappear after viewing, emphasizing real-time, ephemeral communication. Snapchat allows users to customize their content with creative AR filters (Lenses), fun stickers, and text overlays. It's a platform for immediate connection, offering private messaging, Group Chats, and a Discover feed for curated content from media partners, making casual, spontaneous interaction its core feature.",
-    "size": 48,
-    "reviews": 28000000,
+    "size": "48 MB",
+    "reviews": "28 M",
     "ratingAvg": 4.1,
     "downloads": 1000000000,
     "ratings": [
@@ -113,8 +113,8 @@
     "companyName": "LinkedIn Corporation",
     "id": 7,
     "description": "Build your professional profile, showcase your career achievements, and connect with industry experts and potential employers globally. LinkedIn serves as the world's largest professional networking platform, offering job search tools, industry news updates, and skill-building courses. Users can endorse colleagues, participate in professional discussions, and receive personalized job recommendations, making it an indispensable resource for career growth and B2B networking.",
-    "size": 42,
-    "reviews": 9000000,
+    "size": "42 MB",
+    "reviews": "90 K",
     "ratingAvg": 4.3,
     "downloads": 1000000000,
     "ratings": [
@@ -131,8 +131,8 @@
     "companyName": "Telegram FZ-LLC",
     "id": 8,
     "description": "Telegram is a fast, secure, and highly reliable messaging app with a strong focus on privacy and encryption, allowing users to communicate without fear of surveillance. It supports large group chats, file sharing of all types up to $2\text{GB}$ per file, and powerful channels for broadcasting messages to massive audiences. The app is cloud-based, ensuring all messages are synced across multiple devices instantly, providing a robust and feature-rich communication experience.",
-    "size": 35,
-    "reviews": 12000000,
+    "size": "35 MB",
+    "reviews": "12 K",
     "ratingAvg": 4.5,
     "downloads": 1000000000,
     "ratings": [
@@ -144,13 +144,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/VuKjXwWmC8B6zT5tBBf1kGdRikQvvnDNdpzvRkkmZ7q_fPy4N8OgUpOZ6XvJwF8HjA=w480-h960",
+    "image": "https://images.unsplash.com/photo-1662947852375-0d45b28ff623?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFjZWJvb2slMjBsb2dvfGVufDB8fDB8fHww",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 9,
     "description": "Connect with friends, share updates, photos, and stay in touch with your community through the world's largest social network. Facebook allows users to create personal profiles, join groups based on common interests, and receive news and entertainment content on their feed. It also features a robust Marketplace for buying and selling, event planning tools, and Messenger for direct communication, serving as a comprehensive platform for personal and community connection.",
-    "size": 75,
-    "reviews": 150000000,
+    "size": "75 MB",
+    "reviews": "15 M",
     "ratingAvg": 4.1,
     "downloads": 5000000000,
     "ratings": [
@@ -162,13 +162,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/EH1jXjP4aC1gA_v8iDwdSxD63b6qC7L0eARtWBtdB2b1I45yqfKcR_M57_KGVQhT0A=w480-h960",
+    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHdpdHRlciUyMGxvZ298ZW58MHx8MHx8fDA%3D",
     "title": "Twitter (X)",
     "companyName": "X Corp.",
     "id": 10,
     "description": "Join the global conversation and see what’s happening in the world right now, often in real-time, through short, impactful posts, images, and videos. Twitter, now known as X, is the platform for immediate news, trends, and public discourse, allowing users to follow their favorite personalities, news outlets, and organizations. The feed is a mix of breaking information and entertainment, making it an essential tool for keeping a finger on the pulse of current events and cultural movements.",
-    "size": 60,
-    "reviews": 100000000,
+    "size": "60 MB",
+    "reviews": "10 K",
     "ratingAvg": 4.0,
     "downloads": 1000000000,
     "ratings": [
@@ -180,13 +180,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/EPCj1kIh8RmyQGzEKD_0uWGLTtYgTkhh0hZnD5rJ1tVv9iKlxJc9ltjK9aMbC2wAtA=w480-h960",
+    "image": "https://i0.wp.com/www.powerpage.org/wp-content/uploads/2025/05/Whatsapp-Feature.jpg?fit=1200%2C675&ssl=1",
     "title": "WhatsApp Messenger",
     "companyName": "WhatsApp LLC",
     "id": 11,
     "description": "WhatsApp Messenger offers fast, secure, and reliable messaging and calling for free worldwide, utilizing end-to-end encryption for private communication. The app allows users to send text, voice messages, share documents, and make video and audio calls to individuals and groups, regardless of their location. Its simplicity, cross-platform compatibility, and focus on privacy have made it the dominant messaging application for billions of users across the globe.",
-    "size": 40,
-    "reviews": 180000000,
+    "size": "40 MB",
+    "reviews": "18 K",
     "ratingAvg": 4.5,
     "downloads": 5000000000,
     "ratings": [
@@ -198,13 +198,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/C6t7F3vJ_lGny05J1p2BPRi7j1zqDwhgF9imV_tZIVvJ1C76rCEnG6gG3nPqC4GzJQ=w480-h960",
+    "image": "https://img.freepik.com/premium-vector/map-pin-icon_1273375-843.jpg?semt=ais_hybrid&w=740&q=80",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 12,
     "description": "Navigate the world with accurate maps, real-time traffic updates, and comprehensive local business information, all in one intuitive platform. Google Maps provides turn-by-turn navigation for driving, walking, cycling, and public transit, helping you reach your destination efficiently. Users can explore Street View, save favorite locations, and find reviews and operating hours for millions of places, making it the definitive tool for spatial discovery and navigation.",
-    "size": 65,
-    "reviews": 120000000,
+    "size": "65 MB",
+    "reviews": "12 K",
     "ratingAvg": 4.6,
     "downloads": 10000000000,
     "ratings": [
@@ -216,13 +216,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/t4Yx1rHnO4A8zZV6qUZU-4P8k2f8hRkZX7yRWBShybWgbCk6C9O4oLZmDyK6tq2S6Q=w480-h960",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFjq8KVdhEnrInlqpIl1WHNvHS61Q6sj8yEg&s",
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
     "id": 13,
     "description": "Design anything effortlessly—from professional logos and compelling posters to engaging videos and polished presentations—using thousands of customizable templates. Canva provides a simple, drag-and-drop interface that makes graphic design accessible to everyone, regardless of skill level. It features a vast library of stock photos, fonts, and graphic elements, enabling users to create high-quality visual content for social media, business, and personal projects quickly and collaboratively.",
-    "size": 50,
-    "reviews": 14000000,
+    "size": "50 MB",
+    "reviews": "14 k",
     "ratingAvg": 4.8,
     "downloads": 500000000,
     "ratings": [
@@ -234,13 +234,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/GxS-vRZpMWWpTBOeiTT7yM5E0eMlv4y7EavbM3okcwcAsgC7Shk7ZzqUEc7qQ7OvxA=w480-h960",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CMgXdfSJ5DO9yzkc2vNZO2j-8ksjn39rMw&s",
     "title": "Duolingo",
     "companyName": "Duolingo",
     "id": 14,
     "description": "Learn new languages with fun, gamified mini-lessons and engaging challenges designed to make the process effective and addictive. Duolingo uses short, interactive exercises focused on vocabulary, grammar, and pronunciation to build fluency in dozens of languages. The app tracks your progress, offers personalized review sessions, and incorporates a competitive leaderboard system, transforming language acquisition into a delightful daily habit for millions of users.",
-    "size": 35,
-    "reviews": 15000000,
+    "size": "35 MB",
+    "reviews": "15 K",
     "ratingAvg": 4.7,
     "downloads": 500000000,
     "ratings": [
@@ -252,13 +252,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/Z1RZp1OXqS0l93sPqD1PVoK91cXyZ4EflR5O8TqWljvJ0Z3aYQyR6bF5UFrqE5vXUw=w480-h960",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CMgXdfSJ5DO9yzkc2vNZO2j-8ksjn39rMw&s",
     "title": "Zoom",
     "companyName": "Zoom Video Communications, Inc.",
     "id": 15,
     "description": "Zoom is the leading platform for seamless video conferencing, online meetings, and secure group messaging, connecting teams and individuals across the globe. It offers high-definition video and audio quality, screen sharing capabilities, and virtual backgrounds for professional and personal calls. With features like recording, breakout rooms, and meeting scheduling, Zoom has become an essential tool for remote work, education, and social connectivity.",
-    "size": 85,
-    "reviews": 12000000,
+    "size": "85 MB",
+    "reviews": "12 K",
     "ratingAvg": 4.3,
     "downloads": 1000000000,
     "ratings": [
@@ -270,13 +270,13 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/4fX8jK5aME7iW4RFMzNqXvbyD-x0tL6KxOa8O6sGg6PqJjH1U4Vn5U7rTgBtGZsTAA=w480-h960",
+    "image": "https://img.freepik.com/premium-vector/modern-badge-pinterest-icon_578229-162.jpg?semt=ais_hybrid&w=740&q=80",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "id": 16,
     "description": "Discover ideas for recipes, home decor, fashion style inspiration, and millions of other creative projects through visual bookmarks called 'Pins.' Pinterest acts as a search engine and a digital mood board, allowing users to save and organize content into customized collections. Whether you're planning a trip, decorating a room, or looking for a new hobby, Pinterest provides a curated and inspiring visual experience to bring your ideas to life.",
-    "size": 45,
-    "reviews": 11000000,
+    "size": "45 MB",
+    "reviews": "11 K",
     "ratingAvg": 4.6,
     "downloads": 1000000000,
     "ratings": [

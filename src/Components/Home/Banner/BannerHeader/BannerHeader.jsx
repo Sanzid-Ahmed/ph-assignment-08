@@ -9,8 +9,8 @@ const BannerHeader = () => {
             <div className='lg:max-w-3/4 mx-auto mt-4'>
                  <p className='text-center'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                  <div className='flex justify-center gap-5 mt-10'>
-                    <button className='btn font-bold'><img className='w-[20px]' src={playStore} alt="" />Google Play</button>
-                    <button className='btn font-bold'><img className='w-[25px]' src={appStore} alt="" />App Store</button>
+                    <a className='btn font-bold' href='https://play.google.com/store/games?hl=en' target="_blank"><img className='w-[20px]' src={playStore} alt="" />Google Play</a>
+                    <a className='btn font-bold' href='https://www.apple.com/app-store/' target="_blank"><img className='w-[25px]' src={appStore} alt="" />App Store</a>
                  </div>
                  
             </div>

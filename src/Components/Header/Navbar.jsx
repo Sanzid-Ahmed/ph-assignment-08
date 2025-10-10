@@ -18,20 +18,60 @@ const Navbar = () => {
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><NavLink to="/">Home</NavLink></li>
                             <li><NavLink to="/allApps">Apps</NavLink></li>
-                            <li><NavLink to="/installApps">Installation</NavLink></li>
+                            <li><NavLink to="/installApps" onClick={() => window.location.href = '/installApps'}>Installation</NavLink></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><img className='w-[30px]' src={Logo} alt="" /><span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</span></a>
+                    <NavLink to="/" className="btn btn-ghost text-xl"><img className='w-[30px]' src={Logo} alt="" /><span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</span></NavLink>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/allApps">Apps</NavLink></li>
-                        <li><NavLink to="/installApps">Installation</NavLink></li>
+                        <li>
+                            <NavLink
+                                to="/"
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
+                                        : "normal-case"
+                                }
+                            >
+                                Home
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink
+                                to="/allApps"
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent underline"
+                                        : "normal-case"
+                                }
+                            >
+                                Apps
+                            </NavLink>
+                        </li>
+
+                        <li>
+                            <NavLink
+                                to="/installApps"
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent underline"
+                                        : "normal-case"
+                                }
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = '/installApps';
+                                }}
+                            >
+                                Installation
+                            </NavLink>
+                        </li>
+
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-linear-150 from-[#632EE3] to-[#9F62F2]">{<FaGithub />} Contribute</a>
+                    <a className="btn bg-linear-150 from-[#632EE3] to-[#9F62F2]" href='https://github.com/Sanzid-Ahmed' target="_blank">{<FaGithub />} Contribute</a>
                 </div>
             </div>
         </div>
